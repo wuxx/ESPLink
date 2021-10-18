@@ -1,0 +1,11 @@
+#!/bin/bash
+
+CURRENT_DIR=$(cd $(dirname $0); pwd)
+
+PLATFORM=$(uname -m)
+
+if [ "${PLATFORM}" == "x86_64" ]; then
+    sudo ${CURRENT_DIR}/esplink-tool.linux $@
+else
+    sudo ${CURRENT_DIR}/esplink-tool.arm $@
+fi
