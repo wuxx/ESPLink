@@ -4,6 +4,7 @@ ESPLink
 * [ESPLink 介绍](#ESPLink-介绍) 
 * [特性](#特性)
 * [引脚说明](#引脚说明)
+* [上位机软件](#esplink-tool)
 * [产品链接](#产品链接)
 * [参考](#参考)
 
@@ -44,7 +45,7 @@ $./tools/esppad.sh esp32c3 bootloader.bin partition-table.bin app.bin flash_imag
 ```
 
 ## JTAG Debug
-ESPLink 支持使用jtag调试ESP32-C3, 可以方便的让您在系统崩溃时查找原因。具体使用说明如下：（以下以ESP32-C3为例）
+ESPLink 支持使用jtag调试ESP系列芯片, 可以方便的让您在系统崩溃时查找原因。具体使用说明如下：（以下以ESP32-C3为例）
 ### Openocd 安装
   
 ```
@@ -117,7 +118,7 @@ $telnet localhost 4444
 # 引脚说明
 ## Power
 `GND`,`3V3`,`5V`  
-注意：3V3电源可使用软件控制上下电，以实现`冷复位`，即将芯片完全下电重新上电
+注意：3V3电源可使用软件控制上下电，以实现`冷复位`，即将芯片完全下电再重新上电，命令如下
 ```
 $./tools/esplink-tool -c power=1 #power-on
 $./tools/esplink-tool -c power=0 #power-off
@@ -140,7 +141,7 @@ $./tools/esplink-tool -c reset_mode=hot
 $./tools/esplink-tool -c reset_mode=cold
 ```
 # esplink-tool
-esplink-tool 是为ESPLink设计的上位机，可实现芯片的探测、进入bootloader或者app，以及ESPLink的参数配置
+esplink-tool 是为ESPLink设计的上位机程序，可实现目标芯片的探测、令目标芯片进入bootloader或者app，以及ESPLink的参数配置
 ```
 $esplink-tool -h
 usage: /home/pi/oss/ESPLink/tool/esplink-tool.arm [CONFIG]

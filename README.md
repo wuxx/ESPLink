@@ -4,6 +4,7 @@ ESPLink
 * [ESPLink Introduce](#ESPLink-Introduce) 
 * [Features](#Features)
 * [Pin Description](#Pin-Description)
+* [esplink-tool](#esplink-tool)
 * [Product Link](#Product-Link)
 * [Reference](#Reference)
 
@@ -123,17 +124,17 @@ $./tools/esplink-tool -c power=1 #power-on
 $./tools/esplink-tool -c power=0 #power-off
 ```
 ## JTAG
-`TCK`,`TMS`,`TDI`,`TDO`
+`TCK`,`TMS`,`TDI`,`TDO`  
 ## UART
-`TX`,`RX`
+`TX`,`RX`  
 USB-Serial TX and RX
 ## BOOT 
-`BOOT`
+`BOOT`  
 set low, and reset the board, then the board will enter to bootloader for flash program, note that `BOOT` and `RST` is controled by ESPLink USB-Serial `DTR` and `RTS`, compatible with other USB-Serial chip like CP2102 and CH340.
 ## Reset
 `RST`  
 for `hot reset` the chip
-note: ESPLink support two reset type: `cold reset` (with power-off-on on 3V3 pin) and `hot reset` (with RST pin low-to-high), if you use 3V3 pin to power your board, then you may like the `cold reset`, which no need to connect the RST pin, may be more more convenient. a command can switch between `cold reset` and `hot reset`. note that the config is non-volatile, it's stored in ESPLink internal flash memory.
+note: ESPLink support two reset type: `cold reset` (with power-off-on on 3V3 pin) and `hot reset` (with RST pin low-to-high), if you use 3V3 pin to power your board, then you may like the `cold reset`, which no need to connect the RST pin, it may be more more convenient. a command can switch between `cold reset` and `hot reset`. note that the config is non-volatile, it's stored in ESPLink internal flash memory.
 ```
 $./tools/esplink-tool -c reset_mode=hot
 $./tools/esplink-tool -c reset_mode=cold
