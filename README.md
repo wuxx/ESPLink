@@ -13,7 +13,7 @@ ESPLink
 ESPLink is a debug tool build for Expressif's ESP chips made by MuseLab, all Espressif's ESP chips are supported, currently supports ESP8266/ESP32/ESP32-S2/ESP32-C3/ESP32-S3, with usb-to-serial (compatible with traditional use), drag-n-drop program, and jtag debug, made it very convenient for development and test.  
 
 <div align=center>
-<img src="https://github.com/wuxx/ESPLink/blob/master/doc/ESPLink-1.jpg" width = "500" alt="" align=center />
+<img src="https://github.com/wuxx/ESPLink/blob/master/doc/esplink-1.png" width = "500" alt="" align=center />
 </div>
 
 # Features
