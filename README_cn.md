@@ -43,6 +43,7 @@ $esptool.py --chip esp32c3 \
 $./tools/esppad.sh
 usage: esppad.sh esp8266/esp32/esp32s2/esp32c3/esp32s3 bootloader.bin partition-table.bin app.bin flash_image.bin
 $./tools/esppad.sh esp32c3 bootloader.bin partition-table.bin app.bin flash_image.bin
+$cp flash_image.bin /media/pi/ESPLink/
 ```
 
 ## JTAG Debug
@@ -160,7 +161,7 @@ usage: /home/pi/oss/ESPLink/tool/esplink-tool.arm [CONFIG]
 
 
 # 产品链接
-[ESPLink](https://www.aliexpress.com/item/1005003081928629.html?spm=a2g0o.productlist.0.0.4a666866ubSEVc&algo_pvid=f0a84073-dd83-42a1-bf2b-a53530a6cb62&algo_exp_id=f0a84073-dd83-42a1-bf2b-a53530a6cb62-0)
+[ESPLink](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-21349689069.17.a93f128cnQKQTi&id=659813902021)
 
 # 参考
 ### esp-idf
