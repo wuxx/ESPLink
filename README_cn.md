@@ -10,7 +10,7 @@ ESPLink
 
 
 # ESPLink 介绍
-ESPLink 是 Muselab推出的专用于乐鑫的ESP系列芯片的调试工具，支持所有乐鑫的ESP系列芯片，支持串口烧录调试、拖拽烧录、JTAG调试，可极大提高开发测试的效率  
+ESPLink 是 Muselab推出的专用于乐鑫的ESP系列芯片的调试工具，支持所有乐鑫的ESP系列芯片(ESP8266/ESP32/ESP32-S2/ESP32-C3/ESP32-S3等)，支持串口烧录调试、拖拽烧录、JTAG调试，可极大提高开发测试的效率  
 <div align=center>
 <img src="https://github.com/wuxx/ESPLink/blob/master/doc/esplink-1.png" width = "400" alt="" align=center />
 <img src="https://github.com/wuxx/ESPLink/blob/master/doc/esplink-2.png" width = "400" alt="" align=center />
