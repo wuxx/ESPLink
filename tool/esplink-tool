@@ -5,7 +5,9 @@ CURRENT_DIR=$(cd $(dirname $0); pwd)
 PLATFORM=$(uname -m)
 
 if [ "${PLATFORM}" == "x86_64" ]; then
-    sudo ${CURRENT_DIR}/esplink-tool.linux $@
-else
-    sudo ${CURRENT_DIR}/esplink-tool.arm $@
+    sudo ${CURRENT_DIR}/esplink-tool.x64 $@
+elif [ "${PLATFORM}" == "armv7l" ]; then
+    sudo ${CURRENT_DIR}/esplink-tool.arm32 $@
+elif [ "${PLATFORM}" == "aarch64" ]; then
+    sudo ${CURRENT_DIR}/esplink-tool.arm64 $@
 fi
