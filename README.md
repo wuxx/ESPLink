@@ -44,6 +44,7 @@ note: the flash image is a splicing of three files (bootloader.bin/partition-tab
 $./tools/esppad.sh
 usage: esppad.sh esp8266/esp32/esp32s2/esp32c3/esp32s3 bootloader.bin partition-table.bin app.bin flash_image.bin
 $./tools/esppad.sh esp32c3 bootloader.bin partition-table.bin app.bin flash_image.bin
+$cp flash_image.bin /media/pi/ESPLink/
 ```
 
 ## JTAG Debug
