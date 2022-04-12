@@ -317,7 +317,7 @@ int esplink_ram_read_sector(uint8_t *buf)
 
 int esplink_ram_dump()
 {
-	char flash_sector_ram[SPI_FLASH_SECTOR_SIZE] = {0};
+	uint8_t flash_sector_ram[SPI_FLASH_SECTOR_SIZE] = {0};
     uint32_t roffset;
 
     for(roffset = 0; roffset < SPI_FLASH_SECTOR_SIZE; roffset += 32) {
