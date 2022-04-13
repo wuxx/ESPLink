@@ -81,11 +81,10 @@ reset_cold:
 	sudo ./esplink-tool -c reset_mode=cold
 
 release:
-	@if [ "$(PLATFORM)" == "x86_64" ]; \
-	then \
+	@if [ "$(PLATFORM)" = "x86_64" ]; then \
 	    cp esplink-tool ../esplink-tool.x64; \
-    else if [ "$(PLATFORM)" == "armv7l" ]; \
+    elif [ "$(PLATFORM)" = "armv7l" ]; then\
 	    cp esplink-tool ../esplink-tool.arm32; \
-    else if [ "$(PLATFORM)" == "aarch64" ]; \
+    elif [ "$(PLATFORM)" = "aarch64" ]; then\
 	    cp esplink-tool ../esplink-tool.arm64; \
     fi

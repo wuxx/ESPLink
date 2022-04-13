@@ -955,7 +955,7 @@ int main(int argc, char **argv)
         }
 
     } else if (op_mode == 2) { /* enter bootloader or app */
-        if (strcmp(config, "bootloader") == 0) {
+        if (strcmp(config, "boot") == 0 || strcmp(config, "bootloader") == 0) {
 
             fprintf(stdout, "enter bootloader\n");
 
