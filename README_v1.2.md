@@ -8,12 +8,13 @@ ESPLink v1.2
 
 
 # ESPLink Introduce
-ESPLink is a debug tool build for Expressif's ESP chips made by MuseLab, all Espressif's ESP chips are supported, currently supports ESP8266/ESP32/ESP32-S2/ESP32-C3/ESP32-S3 (also can update firmware to support Espressif's latest chips), with usb-to-serial (compatible with traditional use), drag-n-drop program, and jtag debug, made it very convenient for development and test.  
+ESPLink is a debug tool build for Expressif's ESP chips made by MuseLab based on Espressif's [esp-usb-bridge](https://github.com/espressif/esp-usb-bridge), all Espressif's ESP chips are supported, currently supports ESP8266/ESP32/ESP32-S2/ESP32-C3/ESP32-S3 (also can update firmware to support Espressif's latest chips), with usb-to-serial (compatible with traditional use), drag-n-drop program, and jtag debug, made it very convenient for development and test.  
+
 
 <div align=center>
-<img src="https://github.com/wuxx/ESPLink/blob/master/doc/ESPLink-v1.2-1.jpg" width = "400" alt="" align=center />
-<img src="https://github.com/wuxx/ESPLink/blob/master/doc/ESPLink-v1.2-2.jpg" width = "400" alt="" align=center />
-<img src="https://github.com/wuxx/ESPLink/blob/master/doc/ESPLink-v1.2-4.jpg" width = "400" alt="" align=center />
+<img src="https://github.com/wuxx/ESPLink/blob/master/doc/ESPLink-v1.2-1.jpg" width = "600" alt="" align=center />
+<img src="https://github.com/wuxx/ESPLink/blob/master/doc/ESPLink-v1.2-2.jpg" width = "600" alt="" align=center />
+<img src="https://github.com/wuxx/ESPLink/blob/master/doc/ESPLink-v1.2-4.jpg" width = "600" alt="" align=center />
 </div>
 
 # Features

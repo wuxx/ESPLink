@@ -1,4 +1,4 @@
-ESPLink
+ESPLink v1.0 ([v1.2](./README_v1.2.md))
 -----------
 [English](./README.md)
 * [ESPLink 介绍](#ESPLink-介绍) 
