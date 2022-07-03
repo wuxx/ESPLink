@@ -118,7 +118,8 @@ set low, and reset the board, then the board will enter to bootloader for flash 
 for reset the chip
 
 # Product Link
-[ESPLink Board](https://www.aliexpress.com/item/1005003618669159.html?spm=5261.ProductManageOnline.0.0.7b284edfMi8J4H)
+[ESPLink Board](https://www.aliexpress.com/item/1005004484244024.html?spm=5261.ProductManageOnline.0.0.266b4edfhEOo55
+)
 
 # Reference
 ### ESP USB Bridge
